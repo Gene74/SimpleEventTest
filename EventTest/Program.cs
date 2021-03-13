@@ -7,8 +7,8 @@ namespace EventTest
         static void Main(string[] args)
         {
             Character c = new Character();
-            c.Hit(3); //output -> 97
-            c.Hit(100); // output -> 0
+            c.Hit(3); //outputs 97
+            c.Hit(100); // outputs 0
             c.Hit(10); // no output because we are already at 0
         }
     }
